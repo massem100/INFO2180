@@ -1,18 +1,26 @@
-* {
-    box-sizing: border-box;
-}
 
 #Header {
     border-radius: 5px;
     background-color: rgb(2, 64, 92);
     color: white;
-    text-align: center;
-    clear: both;
-    padding: 20px;
+         /* padding: 20px; */
+    height: 150px;
     /* border: 1px solid; */
-    position: static;
+    
 
 }
+#Header{
+    grid-area: header;
+}
+#grid-container{
+    display: grid;
+    padding: 10px;
+    grid-gap: 10px;
+    display: inline-grid;
+    grid-template-areas: "header header header header" "nav main main main";
+
+}
+
 p{
     font-size: medium;
     color: black;
@@ -22,32 +30,36 @@ p{
     width: 20px;
     height: 20px;
 }
-.Side-Bar {
-    margin: 10px 0 0 10px;
-    background-color: #caebf1;
-    padding: 10px 10px;
-    width: 30%;
-    height: 500;
-    float: left;
 
+#Side-Bar{
+    grid-area: nav;
 
 }
+.Side-Bar {
+    /* margin: 10px 0 0 10px; */
+    background-color: #caebf1;
+    width: 20%;
+    height:100%;
+    
+    
+}
 
-
-.Right-Column {
-    margin: 10px 0 0 10px;
+#Main-Content{
+    grid-area: main;
+}
+.Main-Content{
+    margin: 10px;
     background-color: rgb(223, 243, 252);
     color: rgb(2, 64, 92);
-    width: 68%;
-    height:100%;
-    padding: 10px 10px;
-    float: right;
-    position: left;
+    /* padding: 10px; */
+    width: 75%;
+    height: 100%;
+    grid-area: main;    
 
 }
 
 .Side-Bar .Contact #Photo {
-    margin-top: 1px;
+    margin-top: 10px;
     /* padding: 10px; */
     /* position:relative; */
     width: 150px;
