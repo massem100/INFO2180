@@ -10,13 +10,18 @@
 
     <link rel = "stylesheet" href = "styles.css"/>
 </head>
-<body>
-    <header id = "Header">
-         <h1> KRYSTALL MESSAM </h1>
-         <h3> Graphic Designer</h3>
+<body class= 'grid-container'>
+
+    <header class='header' id = "Header">
+        <div class="flex">
+            <div class ="border">
+                <h1> KRYSTALL MESSAM </h1>
+                <h3> Graphic Designer</h3>
+            </div>
+        </div>
     </header>
 
-    <nav class = "Side-Bar">
+    <nav class = "Side-Bar" id="Side-Bar">
          <div class = "Contact">
             <img id="Photo" src="Photo.jpeg">
             <h2>Contact</h2>
@@ -29,7 +34,7 @@
          </div>
     
     </nav>
-     <div class= "Right-Column"> 
+    <article class= "Main-Content" id= "Main-Content"> 
             <h2 id =" Bio"> Biography </h2>
             <p>
                 はじめまして。My name is Krystall Messam but you can call me 'Nutella'.
@@ -42,19 +47,15 @@
             <hr>
             
             <h2 id =" Work Exp"> Work Experience</h2>
-            <h3> Date </h3>
             <p> 
                 Add Work Experience
             </p>
             <hr>
-            <h3> Date </h3>
-
             <h2 id ="Education"> Education </h2>
             <p>
                 Add Education
             </p>
             <hr>
-            <h3> Date </h3>
             <h2> Skills/ Expertise</h2>
             <ul id= "skills">
                 <li>Proficient in Adobe Photoshop and Adobe Illustrator.</li>
@@ -65,6 +66,6 @@
                 <li> Java </li>
 
             </ul>
-     </div>
+        </article>
     </body>
 </html>
