@@ -4,9 +4,7 @@
     color: white;
     padding: 30px;
     height: 130px;
-    grid-area: header;
-
-}
+    grid-area: header;}
 
 .flex-container {
     margin: auto;
@@ -18,15 +16,15 @@
     width: 500px;
 }
 
-.flex-container,
-h1,
-h3 {
+.flex-container, h1, h3 {
     text-align: center;
 }
 
 p {
+    margin: 2px 0px 0px 5px;
     font-size: 18px;
     color: black;
+
 }
 
 a {
@@ -40,7 +38,7 @@ a {
 }
 
 .Side-Bar {
-    margin: 10px 0 0 10px;
+    margin: 10px 0px 0px 10px;
     grid-area: nav;
     background-color: #caebf1;
     height: 500px;
@@ -78,8 +76,6 @@ a {
 
 .Side-Bar .Contact #Photo {
     margin-top: 10px;
-    /* padding: 10px; */
-    /* position:relative; */
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -96,49 +92,27 @@ a {
 }
 
 
-
 .flex-body{
-    margin: 0;
+    margin: 5px 0px 0px 10px;
     display: flex;
     flex-direction:row;
-    text-align: left; 
-  
-    /* padding:5px; */
-    /* text-align:left; */
+    text-align: left;
     
 }
 .flex-details {
-    margin: 0px;
+    margin: 0px 0px 0px 10px;
     display: flex;
     flex-direction: column;
     text-align: left;
 }
+
 .date{
-    margin: 10px;
-    flex:20%;
+    margin: 20px 0px 0px 0px ;
     text-align: left;
+    /* height: 40px; */
+    min-width: 100px;
+   
+
    
 }
-
-.details{
-    margin:0px;
-    flex: 80%;
-    text-align: left;
     
-    
-}
-
-    
-    
-
-    
-}
-/* 
-#Flex-edu{
-    margin:auto;
-    display:flex;
-    padding-right:510px;
-   
-    
-
-} */
